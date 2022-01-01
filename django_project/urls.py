@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import path , include
 
 urlpatterns = [
-    path('', include('invoice_pdf_to_data.urls')),
     path('admin/', admin.site.urls),
-    path('student/', include('student.urls')),
+    path('', include('student.urls')),
 ]

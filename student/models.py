@@ -6,4 +6,4 @@ class Student(models.Model):
     roll_no = models.IntegerField()
     marks = models.IntegerField()
     def __str__(self):
-        return self.name
+        return self.name+' '+str(self.roll_no)
