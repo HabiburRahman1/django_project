@@ -16,8 +16,13 @@ $ django-admin startproject --template https://github.com/juanifioren/django-pro
 
 $ cd projectname/
 $ cp settings_custom.py.edit settings_custom.py
+$ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py runserver
+
+# Create Super User Account
+$ python manage.py createsuperuser
+
 ```
 
 ## Features
